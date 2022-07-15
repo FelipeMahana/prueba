@@ -6,7 +6,7 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 
 .hero-img{
@@ -115,6 +115,7 @@ article.hero{
 .p-habitacion{
     line-height: 1.5rem;
     text-align: center;
+    font-size: 1.15rem;
 }
 .p-hab-disp{
     font-weight: bold;
@@ -140,7 +141,7 @@ a.button-center{
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     text-align:center;
     transition: all .2s;
-    background-color: rgb(215, 140, 0);
+    background-color: rgb(225, 145, 0);
     width: 9rem;
 }
 a.button-center:hover{
@@ -165,7 +166,7 @@ a.button-center:hover{
 }
 .contenedor-mapa{
     width: 100%;
-    height: 65rem;
+    height: 100vh;
 }
 .mapa-bellavista{
     width: 100%;
@@ -174,12 +175,6 @@ a.button-center:hover{
 .interes-mapa{
     display: none;
 }
-.p-interes{
-    text-align: center;
-    margin-top: 2.5rem;
-    font-size: 1.2em;
-}
-
 .lista-contactos{
     list-style-type: none;
     padding: 0;
@@ -188,7 +183,7 @@ a.button-center:hover{
     color: black;
 }
 .lista-texto{
-    font-size: 1.2em;
+    font-size: 1.15em;
     margin: 0;
     color: black
 }
@@ -199,6 +194,16 @@ a.button-center:hover{
 
 .seccion-informacion{
     text-align: center;
+}
+.p-intro-habitacion{
+    font-size: 1.15rem;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+.p-esapcios-comunes{
+    font-size: 1.15rem;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
 }
 
 
@@ -221,7 +226,6 @@ a.button-center:hover{
         gap: 1.5rem;
         text-align: center; 
     }
-    
 }
 
 @media only screen and (min-width: 1200px){
@@ -261,7 +265,7 @@ a.button-center:hover{
     .a-menu{
         color: white;
         text-shadow: 2px 2px 5px black;
-        font-size: .92rem;
+        font-size: .95rem;
         padding: .5em 1.5em;
     }
     .a-menu:hover{
@@ -291,13 +295,12 @@ a.button-center:hover{
     }
     .h3-habitacion{
         grid-column: span 2;
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
     .p-habitacion{
         grid-column: 1;
         text-align: right;
         margin: 1em;
-        font-size: 1.2em;
     }
     .botones{
         display: grid;
@@ -310,7 +313,6 @@ a.button-center:hover{
         grid-template-columns: 55% 1fr;
         box-shadow: 2px 2px 10px rgba(255, 106, 0, 0.3);   
     }
-
     .contenedor-mapa{
         width: 100%;
         height: 65rem;
@@ -326,7 +328,7 @@ a.button-center:hover{
     .p-interes{
         text-align: left;
         margin-top: 2.5rem;
-        font-size: 1.2em;
+        font-size: 1.15em;
     }
 
     .servicios-con-imagen{
@@ -344,7 +346,14 @@ a.button-center:hover{
         margin-right: 6rem;
     }
 }
+/*
+p-normal=1.15rem
+p-chico=.95rem
+h1=3rem
+h2=2.5rem
+h3=1.6
 
+*/
 @media only screen and (min-width: 1600px){
     
     .contenido-habitacion{
