@@ -205,6 +205,15 @@ a.button-center:hover{
     margin-top: 1.5em;
     margin-bottom: 2em;
 }
+.img-espacio-comun{
+    width: 100%;
+    object-fit: cover;
+    height: 22em;
+    grid-row: span 2;
+}
+.texto-secundario{
+    grid-column: span 3;
+}
 
 
 
@@ -229,6 +238,16 @@ a.button-center:hover{
 }
 
 @media only screen and (min-width: 1200px){
+
+    .grid-espacios-comunes{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5em;
+    }
+    .texto-secundario{
+        grid-column: span 3;
+        grid-column: 2;
+    }
 
     .grid-lista-contactos-grande{
         display: grid;
